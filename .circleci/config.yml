@@ -3,7 +3,7 @@ version: 2.1
 executors:
   app-executor:
     docker:
-      image: circleci/node:lts
+      - image: circleci/node:lts
     working_directory: ~/repo
 
 aliases:
