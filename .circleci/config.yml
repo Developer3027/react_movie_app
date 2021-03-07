@@ -132,7 +132,7 @@ jobs:
       - run: echo "Slack Notification"
       - slack/notify:
           event: 'always'
-          channel: 'C01QL1NALG4'
+          channel: 'movie-develop'
           template: ''
           custom: |
             {
