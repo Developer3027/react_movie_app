@@ -11,7 +11,7 @@ executors:
 
   slack-executor:
     docker:
-      - image: 'cimg/base'
+      - image: 'cimg/base:lts'
 
 aliases:
   - &show-current-branch-name
