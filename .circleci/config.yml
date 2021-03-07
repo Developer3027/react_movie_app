@@ -154,6 +154,10 @@ jobs:
                     },
                     {
                       "type": "mrkdwn",
+                      "text": "*Date*:\n$(date +'%m/%d/%Y %T')"
+                    },
+                    {
+                      "type": "mrkdwn",
                       "text": "*Branch*:\n$CIRCLE_BRANCH"
                     },
                     {
