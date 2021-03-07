@@ -7,10 +7,10 @@ executors:
     docker:
       - image: circleci/node:lts
     working_directory: ~/repo
+    
   slack-executor:
     docker:
-      - image: 'cibuilds/base:latest'
-      resource_class: small
+      - image: 'cimg/base:stable'
 
 aliases:
   - &show-current-branch-name
