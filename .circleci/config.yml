@@ -228,6 +228,7 @@ workflows:
                 - staging
                 - master
       - notify-slack-channel:
+          context: SLACK
           requires:
             - deploy-to-aws-cloudfront
           filters:
